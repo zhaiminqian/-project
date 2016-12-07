@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/Homepage.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div id="wrap">
+	    <!-- header one start -->
+	    <div class="header"> 
+		    <div class="nav">
+			   <div class="nav_logo">
+			      <img src="img/logo.png" width="198" height="60" border="0" alt="江中泽生logo">
+			   </div>
+			   <ul class="nav_nav">
+			      <li>
+					  <a href="javascript:;" class="header_newscont">
+					  新闻中心
+					  <div class="nav_jiantou" id="nav_jiantou_zero"></div>
+					  </a>
+					  <ul class="nav_dropdown_cont_one" id="nav_dropdown_cont_one"> 
+						 <li><a href="javacsript:;">企业新闻</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot">行业新闻</a></li>
+					  </ul>
+				  </li>
+				  <li>
+				     <a href="javascript:;">江中药研所
+				     <div class="nav_jiantou" id="nav_jiantou_one"></div>
+					 </a>
+				  </li>
+				  <li>
+					  <a href="javascript:;" class="header_Poccont">
+					  产品展示
+					  <div class="nav_jiantou" id="nav_jiantou_two"></div>
+					  </a>
+					  <ul class="nav_dropdown_cont_two">
+						 <li><a href="javacsript:;">关爱老人</a></li>
+						 <li><a href="javacsript:;">工作健康</a></li>
+						 <li><a href="javacsript:;">年轻女性</a></li>
+						 <li><a href="javacsript:;">儿童成长</a></li>
+						 <li><a href="javacsript:;">饮酒养肝</a></li>
+						 <li><a href="javacsript:;">日常营养</a></li>
+					  </ul>
+				  </li>
+				  <li>
+					  <a href="javascript:;">
+					  健康咨询
+					  <div class="nav_jiantou" id="nav_jiantou_three"></div>
+					  </a>
+					  <ul class="nav_dropdown_cont_three">
+						 <li><a href="javacsript:;">专家视野</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot_two">养生之道</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot">健康案例</a></li>
+					  </ul>
+				  </li>
+				  <li>
+					  <a href="javascript:;">
+					  人才招聘
+					  <div class="nav_jiantou" id="nav_jiantou_four"></div>
+					  </a>
+					  <ul class="nav_dropdown_cont_one nav_margin_left">
+						 <li><a href="javacsript:;">社会招聘</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot">校园招聘</a></li>
+					  </ul>
+				  </li>
+				  <li>
+					  <a href="javascript:;">
+					  关于我们
+					  <div class="nav_jiantou" id="nav_jiantou_five"></div>
+					  </a>
+					  <ul class="nav_dropdown_cont_three nav_dropdown_cont_four">
+						 <li><a href="javacsript:;">公司简介</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot_two">资质荣誉</a></li>
+						 <li><a href="javacsript:;" class="nav_padding_bot">联系我们</a></li>
+					  </ul>
+				  </li>
+				  <li>
+				     <a href="javascript:;">
+					 官方商城
+				     <div class="nav_jiantou" id="nav_jiantou_six"></div>
+					 </a>
+				  </li>
+			   </ul>
+			   <!-- <div class="nav_dropdown">
+			   </div> -->
+			</div>
+			<div class="banner">
+		    	<ul class="banner_cont" id="banner_cont">
+		    		<li class="banner_one banner_tu"></li>
+		    		<li class="banner_two banner_tu"></li>
+		    		<li class="banner_three banner_tu"></li>
+		    		<li class="banner_four banner_tu"></li>
+		    		<li class="banner_five banner_tu"></li>
+		    	</ul>
+				<div class="banner_bot">
+					<ul class="banner_bottom_point" id="banner_bottom_point">
+						<li class="banner_on"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class="margin_right_zero"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	    <!-- header one end -->
+		<div class="HomeCont_one">
+			<div class="Video" id="outer">
+				<video src='1.mp4' id='video'></video>
+				<div class="video_btn" id="video_btn"></div>
+				<div class="Video_bo">
+					<div class="Video_kaiguan" id="kaiguan">
+						<img src="img/Home_kaiguan.png" alt="">
+					</div>
+					<div class="Video_load">
+						<div class="loadTiao" id="loadTiao">
+							<div class="xiaoTiao" id="xiaoTiao"></div>
+							<div class='loadingTiao' id='loadingTiao'></div>
+							<div class="VideoBtn" id="VideoBtn">
+						        <div></div>
+						    </div>
+						</div>
+					</div>
+					<div class="volume_big">
+						<div class="HomeImg">
+							<img src="img/Home_volume.png" alt="">
+						</div>
+						<div class="Video_volume" >
+							<div class="loadTiao_volume" id="volume">
+								<div class="xiaoTiao_two" id="darg"></div>
+								<div class="VideoBtn_two" id="VideoBtn_two">
+							        <div></div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="AboutMe">
+				<input type="text"  value="输入关键字" id="input">
+				<div class="nc_menu" id="nc_menu">
+					<ul>
+						<li>关键字</li>
+					</ul>
+			    </div>
+				<a href="javascript:;">
+					<div class="search">
+						<img src="img/Home_search.png" alt="">
+					</div>
+				</a>
+				<div class="adoutMe">
+					<div class="Home_cont">
+						<div class="adoutMe_header">
+							<h1>关于我们</h1>
+							<a href="javascript:;">
+							    <span>
+							    	更多
+	                                <img src="img/Home_jiantou.png" alt="">
+							    </span>
+						    </a>
+					    </div>
+					    <p>关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于</p>
+					    <p>我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="HomeCont_two">
+			<div class="HomeTitle">
+				<h1>新闻中心</h1>
+				<span>
+					<a href="javascript:;">
+						更多
+                        <img src="img/Home_jiantou.png" alt="">
+                    </a>
+				</span>
+			</div>
+			<ul class="HomeCont_two_left">
+				<li><a href="javascript:;" class="hover"></a></li>
+				<li><a href="javascript:;"></a></li>
+				<li><a href="javascript:;"></a></li>
+				<li><a href="javascript:;"></a></li>
+			</ul>
+			<ul class="HomeCont_two_right">
+				<a href="javascript:;">
+					<li>
+						<div class="news">
+							<div class="opcity_bj"></div>
+							<img src="img/Home_news.png" alt="">
+							<div class="Home_bj"></div>
+                        </div>
+						<div class="Home_text">
+							<p>   
+						   <!--  11111111111关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于
+							</p>
+							<p>
+							我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于...... -->
+							</p>
+						</div>
+					</li>
+			    </a>
+			    <a href="javascript:;">
+					<li class="Home_hidden">
+						<div class="news">
+							<div class="opcity_bj"></div>
+							<img src="img/Home_news.png" alt="">
+							<div class="Home_bj"></div>
+                        </div>
+						<div class="Home_text">
+							<p>   
+						    <!-- 22222222222于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于
+							</p>
+							<p>
+							我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于...... -->
+							</p>
+						</div>
+					</li>
+			    </a>
+				<a href="javascript:;">
+					<li class="Home_hidden">
+						<div class="news">
+							<div class="opcity_bj"></div>
+							<img src="img/Home_news.png" alt="">
+							<div class="Home_bj"></div>
+                        </div>
+						<div class="Home_text">
+							<p>   
+						  <!--  33333333333于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于
+							</p>
+							<p>
+							我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于...... -->
+							</p>
+						</div>
+					</li>
+			    </a>
+               <a href="javascript:;">
+					<li class="Home_hidden">
+						<div class="news">
+							<div class="opcity_bj"></div>
+							<img src="img/Home_news.png" alt="">
+							<div class="Home_bj"></div>
+                        </div>
+						<div class="Home_text">
+							<p>   
+						  <!--   44444444444我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于
+							</p>
+							<p>
+							我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于...... -->
+							</p>
+						</div>
+					</li>
+			    </a>
+			</ul>
+		</div>
+		<div class="HomeCont_three">
+			<div class="HomeTitle">
+				<h1>产品展示</h1>
+				<span>
+					<a href="javascript:;">
+						更多
+                        <img src="img/Home_jiantou.png" alt="">
+                    </a>
+				</span>
+			</div>
+			<ul class="Home_show">
+				<li>
+					<a href="javascript:;">
+					  <div class="opcity_bj"></div>
+					  <div class="Home_bj2">
+					  	产品名
+					  </div>
+				    </a>
+			    </li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj2">
+							产品名
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj2">
+							产品名
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj2">
+							产品名
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj2">
+							产品名
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj2">
+							产品名
+						</div>
+					</a>
+				</li>
+			</ul>
+			<a href="http://www.baidu.com"><img src="img/Home_show2.png" alt=""></a>
+		</div>
+		<div class="HomeCont_four">
+			<div class="HomeTitle">
+				<h1>健康案例</h1>
+				<span>
+					<a href="javascript:;">
+						更多
+                        <img src="img/Home_jiantou.png" alt="">
+                    </a>
+				</span>
+			</div>
+			<ul class="HomeAnli">
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj3">
+							案例文本案例文本案例文本案例...
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj3">
+							案例文本案例文本案例文本案例...
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<div class="opcity_bj"></div>
+						<div class="Home_bj3">
+							案例文本案例文本案例文本案例...
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<ul class="news_position">
+		    <li class="k_gotop" id="k_gotop">
+		    	<img src="img/gotop.png" alt="">
+		    </li>
+			<li class="k_phone" id="k_phone">
+				<a href="javascript:;"><img src="img/k_phone.png" alt=""></a>
+			</li>
+			<li class="k_qq" id="k_qq">
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=1714403130&site=qq&menu=yes"><img src="img/k_qq.png" ></a>
+			</li>
+        </ul>
+		<!-- foot two start -->
+		<div class="footer">
+		   <div class="footer_one">
+		       <div>
+			      <span><a href="javascript:;">首页</a></span>
+				  <span><a href="javascript:;">关于我们</a></span>
+				  <span><a href="javascript:;">新闻动态</a></span>
+				  <span><a href="javascript:;">产品展示</a></span>
+				  <span><a href="javascript:;">技术研发</a></span>
+				  <span><a href="javascript:;">健康资讯</a></span>
+				  <span class="border_right_zero"><a href="javascript:;">人才招聘</a></span>
+			   </div>
+			   
+		   </div>
+		   <div class="footer_two">
+			      客服热线：010-88505612  业务咨询：13701198200  传真：010-88505612  邮箱：等待添加
+		   </div>
+		   <div class="footer_two">
+	              Copyright © 2002-2015 北京江中泽生科技有限公司 版权所有 津ICP备14002765号 技术支持：江中泽生
+		   </div>
+		</div>
+        <!-- foot two end -->
+	</div>
+	<script src="js/Homepage.js"></script>
+</body>
+</html>

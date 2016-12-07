@@ -1,0 +1,20 @@
+body,html{font-family: '黑体';background:white;}
+input{outline:none;border:0;}
+a{text-decoration: none;}
+/*中间内容部分*/
+.ZZYYSouter{width:1000px;overflow: hidden;margin:0 auto;}
+.ZZYYS_title{height:60px;margin-top:50px;}
+.ZZYYS_title>span{color:#16b1bf;font-size:26px;line-height:56px;float:left;}
+.ZZYYS_title_right{overflow:hidden;width:296px;height:56px;border:2px solid #16b1bf;float:right;}
+.ZZYYS_title_right>input{background:white;float:left;width:228px;font-size:18px;height:18px;line-height:18px;padding:19px 0px;padding-left:14px;color:#999999;}
+.nc_click{width:44px;height:46px;float:left;background:#16b1bf;margin-top:5px;margin-left:5px;border:none;display:block;padding:0;
+border-radius:3px;transition:0.3s all ease;float:left;cursor:pointer;}
+.nc_click:hover{background:#39ccd3;}
+.ZZYYS_con{border:1px solid #16b1bf;margin-top:30px;padding:0 39px;padding-bottom:45px;}
+.ZZYYS_foot{width:1000px;height:120px;margin-top:122px;margin-bottom:60px;background-size:cover;background-position:center center;}
+.single_fixed{width:46px;height:147px;position:fixed;top:510px;right:70px;z-index: 500;
+   }
+.single_fixed li{width:100%;height:49px;background:#16b1bf;text-align: center;
+   	  line-height:49px;transition:0.3s all ease;}
+.single_fixed li:hover{background:#39CCD3;}
+
